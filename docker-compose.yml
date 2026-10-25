@@ -1,0 +1,8 @@
+services:
+  wind-desk:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      PORT: 8000
+      CORS_ORIGINS: "*"
